@@ -29,3 +29,9 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 * Delete Company DELETE (/api/companies/{companyId})
 ![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/b4a6ba08-2d9a-4fe8-8482-2d3cce9dade4)
 
+* Get all Jobs Posted by a Company GET (/api/companies/{companyId}/jobs)
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/347f5cbe-a57f-4cce-9916-58f82123f9db)
+
+* Get all Reviews for a Company GET (/api/companies/{companyId}/reviews)
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a7972014-4b46-45b3-9c44-e5cfc59f947e)
+
