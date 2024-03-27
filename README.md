@@ -41,9 +41,20 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 
 * Create Job Posting POST (/api/jobs)
   
-![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/e75aa183-73c8-4dd8-9248-e7d275ecdcf0)
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/77400e74-0c3c-4730-b7fc-3d4660ff189f)
+
 
 * Update Job Posting PUT (/api/jobs/{jobId})
-![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/9b12fb76-5f80-4ef3-a07b-fc419449d552)
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/8e2df3d0-c69d-41ab-9ac6-bd52791da225)
 
+* Get Job Posting GET (/api/jobs/{jobId})
 
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a5e3f165-84aa-498a-a515-c255b09d2b49)
+
+* Delete Job Posting DELETE (/api/jobs/{jobId})
+
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a46ccb79-8d3f-4295-b247-6ddde98f2d9d)
+
+* Get all Jobs Postings by a Company GET (/api/jobs/company?company_id={companyId})
+
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/47aeb303-fc78-4bba-896a-4e70d612ae27)
