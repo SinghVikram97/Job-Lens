@@ -1,4 +1,4 @@
-# Glassdoor-Clone
+# Job Lens
 Microservices driven platform for companies to post their job listings and employees to leave reviews for companies they have worked for
 
 ## Tech Stack 
