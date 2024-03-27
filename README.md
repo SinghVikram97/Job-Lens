@@ -31,7 +31,7 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
      - [Get all Jobs Postings by a Company GET](#get-all-jobs-postings-by-a-company-get)
 
 
-## High Level Design
+## High Level Design <a name="high-level-design"></a>
 ![Job Lens Zoomed](https://github.com/SinghVikram97/Job-Lens/assets/18444000/07a3454b-5d7c-4cb0-9ecd-c16120e97630)
 
 ## LLD
