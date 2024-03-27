@@ -15,3 +15,16 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 ## High Level Design
 ![Job Lens Zoomed](https://github.com/SinghVikram97/Job-Lens/assets/18444000/07a3454b-5d7c-4cb0-9ecd-c16120e97630)
 
+## LLD
+### Company Service
+* Create Company POST (/api/companies)
+<img width="510" alt="image" src="https://github.com/SinghVikram97/Job-Lens/assets/18444000/3d270826-c2d3-4462-8b06-43ceee093539">
+
+* Update Company PUT (/api/companies/{companyId})
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a40ff51d-adc7-4443-a568-c2f5c025f3e6)
+
+* Get Company GET (/api/companies/{companyId})
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/0bdfb3ed-6633-4642-b676-90f963234f9d)
+
+* Delete Company DELETE (/api/companies/{companyId})
+
