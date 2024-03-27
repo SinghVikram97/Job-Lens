@@ -17,8 +17,8 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 
 ## LLD
 ### Company Service
-* Create Company POST (/api/companies)
-![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a37a40e8-125f-442c-bcb5-c1a170e2e571)
+* Create Company POST (/api/companies) 
+
 
 * Update Company PUT (/api/companies/{companyId})
 ![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a40ff51d-adc7-4443-a568-c2f5c025f3e6)
