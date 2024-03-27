@@ -12,6 +12,25 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 * [Job Microservice](https://github.com/SinghVikram97/job-service): Manages the creation, modification, and retrieval of Jobs related data
 * [Review Microservice](https://github.com/SinghVikram97/review-service): Manages the creation, modification, and retrieval of Reviews related data
 
+## Table of Contents
+
+1. [High Level Design](#high-level-design)
+2. [LLD](#lld)
+   - [Company Service](#company-service)
+     - [Create Company POST](#create-company-post)
+     - [Update Company PUT](#update-company-put)
+     - [Get Company GET](#get-company-get)
+     - [Delete Company DELETE](#delete-company-delete)
+     - [Get all Jobs Posted by a Company GET](#get-all-jobs-posted-by-a-company-get)
+     - [Get all Reviews for a Company GET](#get-all-reviews-for-a-company-get)
+   - [Job Service](#job-service)
+     - [Create Job Posting POST](#create-job-posting-post)
+     - [Update Job Posting PUT](#update-job-posting-put)
+     - [Get Job Posting GET](#get-job-posting-get)
+     - [Delete Job Posting DELETE](#delete-job-posting-delete)
+     - [Get all Jobs Postings by a Company GET](#get-all-jobs-postings-by-a-company-get)
+
+
 ## High Level Design
 ![Job Lens Zoomed](https://github.com/SinghVikram97/Job-Lens/assets/18444000/07a3454b-5d7c-4cb0-9ecd-c16120e97630)
 
