@@ -18,7 +18,7 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 ## LLD
 ### Company Service
 * Create Company POST (/api/companies)
-<img width="510" alt="image" src="https://github.com/SinghVikram97/Job-Lens/assets/18444000/3d270826-c2d3-4462-8b06-43ceee093539">
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a37a40e8-125f-442c-bcb5-c1a170e2e571)
 
 * Update Company PUT (/api/companies/{companyId})
 ![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a40ff51d-adc7-4443-a568-c2f5c025f3e6)
@@ -35,3 +35,6 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 * Get all Reviews for a Company GET (/api/companies/{companyId}/reviews)
 ![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/a7972014-4b46-45b3-9c44-e5cfc59f947e)
 
+### Job Service
+* Create Job Posting POST (/api/jobs)
+* 
