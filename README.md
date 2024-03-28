@@ -16,30 +16,30 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 - [High Level Design](#high-level-design)
 - [LLD](#lld)
   - [Company Service](#company-service)
-    - [Create Company POST (/api/companies)](#create-company-post-api-companies)
-    - [Update Company PUT (/api/companies/{companyId})](#update-company-put-api-companies-companyid)
-    - [Get Company GET (/api/companies/{companyId})](#get-company-get-api-companies-companyid)
-    - [Delete Company DELETE (/api/companies/{companyId})](#delete-company-delete-api-companies-companyid)
-    - [Get all Jobs Posted by a Company GET (/api/companies/{companyId}/jobs)](#get-all-jobs-posted-by-a-company-get-api-companies-companyid-jobs)
-    - [Get all Reviews for a Company GET (/api/companies/{companyId}/reviews)](#get-all-reviews-for-a-company-get-api-companies-companyid-reviews)
+    - [Create Company](#create-company-post-api-companies)
+    - [Update Company](#update-company-put-api-companies-companyid)
+    - [Get Company](#get-company-get-api-companies-companyid)
+    - [Delete Company](#delete-company-delete-api-companies-companyid)
+    - [Get all Jobs Posted by a Company](#get-all-jobs-posted-by-a-company-get-api-companies-companyid-jobs)
+    - [Get all Reviews for a Company](#get-all-reviews-for-a-company-get-api-companies-companyid-reviews)
   - [Job Service](#job-service)
-    - [Create Job Posting POST (/api/jobs)](#create-job-posting-post-api-jobs)
-    - [Update Job Posting PUT (/api/jobs/{jobId})](#update-job-posting-put-api-jobs-jobid)
-    - [Get Job Posting GET (/api/jobs/{jobId})](#get-job-posting-get-api-jobs-jobid)
-    - [Delete Job Posting DELETE (/api/jobs/{jobId})](#delete-job-posting-delete-api-jobs-jobid)
-    - [Get all Jobs Postings by a Company GET (/api/jobs/company?company_id={companyId})](#get-all-jobs-postings-by-a-company-get-api-jobs-companycompany_idcompanyid)
+    - [Create Job Posting](#create-job-posting-post-api-jobs)
+    - [Update Job Posting](#update-job-posting-put-api-jobs-jobid)
+    - [Get Job Posting](#get-job-posting-get-api-jobs-jobid)
+    - [Delete Job Posting](#delete-job-posting-delete-api-jobs-jobid)
+    - [Get all Jobs Postings by a Company](#get-all-jobs-postings-by-a-company-get-api-jobs-companycompany_idcompanyid)
   - [Review Service](#review-service)
-    - [Post a Review POST (/api/reviews)](#post-a-review-post-api-reviews)
-    - [Update a Review PUT (/api/reviews/{reviewId})](#update-a-review-put-api-reviews-reviewid)
-    - [Get Review GET (/api/reviews/{reviewId})](#get-review-get-api-reviews-reviewid)
-    - [Delete Review DELETE (/api/reviews/{reviewId})](#delete-review-delete-api-reviews-reviewid)
-    - [Get all Reviews for a Company GET (/api/reviews/company?company_id={companyId})](#get-all-reviews-for-a-company-get-api-reviews-companycompany_idcompanyid)
+    - [Post a Review](#post-a-review-post-api-reviews)
+    - [Update a Review](#update-a-review-put-api-reviews-reviewid)
+    - [Get Review](#get-review-get-api-reviews-reviewid)
+    - [Delete Review](#delete-review-delete-api-reviews-reviewid)
+    - [Get all Reviews for a Company](#get-all-reviews-for-a-company-get-api-reviews-companycompany_idcompanyid)
 
 ## High Level Design <a name="high-level-design"></a>
 ![Job Lens Zoomed](https://github.com/SinghVikram97/Job-Lens/assets/18444000/07a3454b-5d7c-4cb0-9ecd-c16120e97630)
 
+<a name="lld"></a>
 ## LLD
-
 ### Company Service <a name="company-service"></a>
 
 #### Create Company POST (/api/companies) <a name="create-company-post-api-companies"></a>
