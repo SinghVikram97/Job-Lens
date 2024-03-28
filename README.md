@@ -77,3 +77,25 @@ Java, Spring Boot, Spring Data JPA, PostgreSQL, Spring Cloud Gateway, Spring Clo
 * Get all Jobs Postings by a Company GET (/api/jobs/company?company_id={companyId})
 
 ![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/47aeb303-fc78-4bba-896a-4e70d612ae27)
+
+### Review Service
+
+* Post a Review POST (/api/reviews)
+
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/dc556acf-03ae-4b4e-b0e4-25618ba18017)
+
+* Update a Review PUT (/api/reviews/{reviewId})
+
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/545fd3b4-e257-4cb1-8e79-fc54eba50aee)
+
+* Get Review GET (/api/reviews/{reviewId})
+
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/5819658c-5ead-4b28-a2cc-07ba8d0d1841)
+
+* Delete Review DELETE (/api/reviews/{reviewId})
+
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/9c793a32-df72-4e3c-80f9-3a6097585d61)
+
+* Get all Reviews for a Company GET (/api/reviews/company?company_id={companyId})
+
+![Seq](https://github.com/SinghVikram97/Job-Lens/assets/18444000/739d330b-cba4-4659-b983-eb41f1685cc4)
